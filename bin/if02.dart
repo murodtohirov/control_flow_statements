@@ -6,5 +6,15 @@
         a: integer
     Returns:
         a: a increased by 1 if positive, else decreased by 2.*/
+int func(int number) {
+  if (number > 0) {
+    print("eshik oldida");
+    return number + 1;
+  }
+  print("yulda");
+  return number - 2;
+}
 
-void main() {}
+void main() {
+  print(func(-11));
+}
