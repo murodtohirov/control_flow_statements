@@ -6,15 +6,14 @@
         a: integer
     Returns:
         a: integer*/
-int func(int number) {
-  if (number > 0) {
-    print("eshik oldida");
-    return number + 1;
+int func(int x) {
+  if (x > 0) {
+    return x + 1;
   }
-  print("yulda");
-  return number - 2;
+  return x - 2;
 }
 
 void main() {
-  print(func(12));
+  print(func(56));
+  print(func(-34));
 }
