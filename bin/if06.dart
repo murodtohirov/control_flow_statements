@@ -11,4 +11,12 @@
         c: third number
     Returns:
         string: string with the result*/
-void main() {}
+int func(int a, b, c) {
+  if (a > 0) {
+    return a + 1;
+  }
+}
+
+void main() {
+  print(func(1, 2, 3));
+}

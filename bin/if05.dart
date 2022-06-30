@@ -8,12 +8,10 @@
         c: integer
     returns:
         integer: the number of negative numbers in the given numbers*/
-int func(int a, b, c) {
-  if (a > 0) {
-    return a + 1;
-  }
+int func() {
+  return 1;
 }
 
 void main() {
-  print(func(4, 5, 6));
+  print(func("Non", 6000, 2));
 }
