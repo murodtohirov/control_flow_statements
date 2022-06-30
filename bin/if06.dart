@@ -11,12 +11,31 @@
         c: third number
     Returns:
         string: string with the result*/
-int func(int a, b, c) {
+String func(a, b, c) {
+  int x = 0;
+  int y = 0;
   if (a > 0) {
-    return a + 1;
+    x += 1;
   }
+  if (b > 0) {
+    x += 1;
+  }
+  if (c > 0) {
+    x += 1;
+  }
+  if (a < 0) {
+    y += 1;
+  }
+  if (b < 0) {
+    y += 1;
+  }
+  if (c < 0) {
+    y += 1;
+  }
+
+  return "there are a lot of positive numbers";
 }
 
 void main() {
-  print(func(1, 2, 3));
+  print(func(-1, -3, 3));
 }

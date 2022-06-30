@@ -8,12 +8,20 @@
         c: integer
     returns:
         integer: the number of positive numbers in the given numbers */
-int func(int a, b, c) {
+int func(a, b, c) {
+  int x = 0;
   if (a > 0) {
-    return a + 1;
+    x = x + 1;
   }
+  if (b > 0) {
+    x = x + 1;
+  }
+  if (c > 0) {
+    x = x + 1;
+  }
+  return x;
 }
 
 void main() {
-  print(func(6, 4, 5));
+  print(func(7, 3, 9));
 }
