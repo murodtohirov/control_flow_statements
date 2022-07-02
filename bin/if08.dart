@@ -11,4 +11,13 @@
     Returns:
         string: the message to print */
 
-void main() {}
+String func(int a) {
+  if (a > 0) {
+    if (a % 2 == 0) ;
+  }
+  return "two-digit odd number";
+}
+
+void main() {
+  print(func(76));
+}
