@@ -13,11 +13,33 @@
 
 String func(int a) {
   if (a > 0) {
+    if (a > 0) (a % 2 == 0);
+    {
+      return "two-digit even number";
+    }
+  }
+  if (a < 0) {
+    if (a < 0) (a % 2 == 1);
+    {
+      return "two-digit odd number";
+    }
+  }
+  if (a < 0) {
+    if (a < 0) (a % 2 == 1);
+    {
+      return "three-digit odd number";
+    }
+  }
+  if (a < 0) {
+    if (a % 2 == 0) {
+      return "three-digit even number";
+    }
+  }
+  if (a == 0) {
     if (a % 2 == 0) ;
   }
-  return "two-digit odd number";
 }
 
 void main() {
-  print(func(76));
+  print(func(842));
 }
