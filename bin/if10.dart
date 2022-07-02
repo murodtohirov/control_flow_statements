@@ -14,22 +14,22 @@
         string: the message to return*/
 String func(number) {
   if (number < 0) {
-    return 'freezing ';
+    return 'Freezing ';
   }
   if (number >= 1 && number <= 10) {
-    return 'very cold';
+    return 'Very Cold';
   }
   if (number >= 11 && number <= 20) {
-    return 'cold';
+    return 'Cold';
   }
   if (number >= 21 && number <= 30) {
-    return 'normal';
+    return 'Normal';
   }
   if (number >= 31 && number <= 40) {
-    return 'hot';
+    return 'Hot';
   }
   if (number > 40) {
-    return 'very hot';
+    return 'Very Hot';
   }
 }
 
